@@ -15,7 +15,7 @@ import java.util.function.Function;
 
 public class ModItems {
 
-    public static final Item Stein_der_Weisen = registerItem("stein_der_weisen", properties -> new stein_der_weisen(properties.durability(9)));
+    public static final Item stein_der_weisen = registerItem("stein_der_weisen", properties -> new stein_der_weisen(properties.durability(9)));
 
 
     private static Item registerItem(String name, Function<Item.Properties, Item> function) {
@@ -27,7 +27,7 @@ public class ModItems {
         MaturaMod.LOGGER.info("Registering Mod Items for " + MaturaMod.MOD_ID);
 
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS).register(output -> {
-            output.accept(Stein_der_Weisen);
+            output.accept(stein_der_weisen);
 
         });
 

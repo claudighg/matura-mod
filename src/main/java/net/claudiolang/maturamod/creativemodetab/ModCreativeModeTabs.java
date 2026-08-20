@@ -14,10 +14,10 @@ public class ModCreativeModeTabs {
 
     public static final CreativeModeTab Mystical_Item_Tab = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
             Identifier.fromNamespaceAndPath(MaturaMod.MOD_ID, "mystical_items"),
-            FabricCreativeModeTab.builder().icon(() -> new ItemStack(ModItems.Stein_der_Weisen))
+            FabricCreativeModeTab.builder().icon(() -> new ItemStack(ModItems.stein_der_weisen))
                 .title(Component.translatable("creativemodetab.maturamod.mystical_items"))
                 .displayItems((parameters, output) ->{
-                    output.accept(ModItems.Stein_der_Weisen);})
+                    output.accept(ModItems.stein_der_weisen);})
                 .build());
 
 
