@@ -1,5 +1,8 @@
 package net.claudiolang.maturamod;
 
+import net.claudiolang.maturamod.ModBlock.ModBlocks;
+import net.claudiolang.maturamod.creativemodetab.ModCreativeModeTabs;
+import net.claudiolang.maturamod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.resources.Identifier;
@@ -13,9 +16,16 @@ public class MaturaMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModCreativeModeTabs.registerModCreativeModeTabs();
+
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
+
 	}
 
-	public static Identifier id(String path) {
+	/*public static Identifier id(String path) {
 		return Identifier.fromNamespaceAndPath(MOD_ID, path);
+		*/
+
 	}
-}
+

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "matura-mod:item/stein_der_weisen"
+  }
+}
