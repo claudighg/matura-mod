@@ -1,4 +1,4 @@
-package net.claudiolang.maturamod.ModBlock;
+/*package net.claudiolang.maturamod.ModBlock;
 
 import net.claudiolang.maturamod.MaturaMod;
 import net.claudiolang.maturamod.MaturaMod;
@@ -38,7 +38,7 @@ public class ModBlocks {
     }
 }
 
-
+*/
 
 
 

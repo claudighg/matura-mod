@@ -1,6 +1,6 @@
 package net.claudiolang.maturamod;
 
-import net.claudiolang.maturamod.ModBlock.ModBlocks;
+//import net.claudiolang.maturamod.ModBlock.ModBlocks;
 import net.claudiolang.maturamod.creativemodetab.ModCreativeModeTabs;
 import net.claudiolang.maturamod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -23,7 +23,7 @@ public class MaturaMod implements ModInitializer {
 	public void onInitialize() {
 		ModCreativeModeTabs.registerModCreativeModeTabs();
 		ModItems.registerModItems();
-		ModBlocks.registerModBlocks();
+		//ModBlocks.registerModBlocks();
 		LootTableEvents.MODIFY.register(((key, tableBuilder, source, registries) -> {
 			if (source.isBuiltin() && key.equals(BuiltInLootTables.DESERT_PYRAMID)){
 				LootPool.Builder desert_pyramid_loot = LootPool.lootPool()
