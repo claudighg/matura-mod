@@ -12,10 +12,8 @@ public class ModModelProvider extends FabricModelProvider {
         super(output);
     }
 
-    @Override
-    public void generateBlockStateModels(BlockModelGenerators blockModelGenerators) {
-
-    }
+//    @Override
+    //public void generateBlockStateModels(BlockModelGenerators blockModelGenerators) {}
 
     @Override
     public void generateItemModels(ItemModelGenerators itemModelGenerators) {
