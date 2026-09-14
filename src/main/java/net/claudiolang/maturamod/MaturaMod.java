@@ -1,6 +1,6 @@
 package net.claudiolang.maturamod;
 
-//import net.claudiolang.maturamod.ModBlock.ModBlocks;
+
 import net.claudiolang.maturamod.creativemodetab.ModCreativeModeTabs;
 import net.claudiolang.maturamod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
