@@ -23,7 +23,6 @@ public class MaturaMod implements ModInitializer {
 	public void onInitialize() {
 		ModCreativeModeTabs.registerModCreativeModeTabs();
 		ModItems.registerModItems();
-		//ModBlocks.registerModBlocks();
 		LootTableEvents.MODIFY.register(((key, tableBuilder, source, registries) -> {
 			if (source.isBuiltin() && key.equals(BuiltInLootTables.DESERT_PYRAMID)){
 				LootPool.Builder desert_pyramid_loot = LootPool.lootPool()
